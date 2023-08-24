@@ -10,14 +10,15 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+   
 }
 
-.calculator {
-    background: linear-gradient(120deg, rgb(246, 101, 183, 0.5), rgb(185, 133, 253, 0.5));
+.calculator { 
+    background: linear-gradient(180deg, rgb(246, 101, 183, 0.2), rgb(185, 133, 253, 0.7));
     width: 330px;
     height: 450px;
     padding: 50px 50px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 #input {
@@ -34,7 +35,7 @@
     margin-bottom: 10px;
 }
 
-.buttons-1 button{
+.buttons-1 button {
     border: none;
     padding: 1rem;
     font-size: 1rem;
@@ -44,18 +45,18 @@
     color: #000;
 }
 
-.buttons-2{
+.buttons-2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
-.edit{
+.edit {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-.buttons-2 button{
+.buttons-2 button {
     border: none;
     padding: 1rem;
     font-size: 1rem;
@@ -65,7 +66,11 @@
     color: #000;
 }
 
-.buttons-2 button:hover{
+.buttons-1 button:hover {
+    cursor: pointer;
+}
+
+.buttons-2 button:hover {
     cursor: pointer;
 }
 
