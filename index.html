@@ -5,9 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator App</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <div class="container">
+        <div class="calculator">
+            <input type="text" id="input" name="input" readonly/>
+            <div class="buttons-1">
+                <button type="button" data-clear>C</button>
+                <button type="button" data-backspace>B</button>
+            </div>
+            <div class="buttons-2">
+                <button type="button" date-7>7</button>
+                <button type="button" date-8>8</button>
+                <button type="button" date-9>9</button>
+                <button type="button" date-divide>/</button>
+                <button type="button" date-4>4</button>
+                <button type="button" date-5>5</button>
+                <button type="button" date-6>6</button>
+                <button type="button" date-multiply>*</button>
+                <button type="button" date-1>1</button>
+                <button type="button" date-2>2</button>
+                <button type="button" date-3>3</button>
+                <button type="button" date-subtract>-</button>
+                <button type="button" date-0>0</button>
+                <button type="button" date-point>.</button>
+                <button type="button" date-equals>=</button>
+                <button type="button" date-add>+</button>
+            </div>     
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
