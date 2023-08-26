@@ -30,16 +30,19 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-#input {
+.calculator-display {
     border: none;
     width: 100%;
     padding: 1rem;
     margin-bottom: 1rem;
+    background-color: #fff;
+    text-align: end;
+    font-weight: 300;
 }
 
 .buttons-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
     margin-bottom: 10px;
 }

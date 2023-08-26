@@ -13,29 +13,30 @@
 <body>
     <div class="container">
         <div class="calculator">
-            <input type="text" id="input" name="input" readonly/>
-            <div class="buttons-1">
-                <button type="button" data-clear>C</button>
-                <button type="button" data-backspace>B</button>
-            </div>
-            <div class="buttons-2">
-                <button type="button" date-7>7</button>
-                <button type="button" date-8>8</button>
-                <button type="button" date-9>9</button>
-                <button type="button" date-divide>/</button>
-                <button type="button" date-4>4</button>
-                <button type="button" date-5>5</button>
-                <button type="button" date-6>6</button>
-                <button type="button" date-multiply>*</button>
-                <button type="button" date-1>1</button>
-                <button type="button" date-2>2</button>
-                <button type="button" date-3>3</button>
-                <button type="button" date-subtract>-</button>
-                <button type="button" date-0>0</button>
-                <button type="button" date-point>.</button>
-                <button type="button" date-equals>=</button>
-                <button type="button" date-add>+</button>
-            </div>     
+            <div class="calculator-display">0</div>
+            <div class="calculator-buttons">
+                <div class="buttons-1">
+                    <button type="button" data-clear>CLEAR</button>
+                </div>
+                <div class="buttons-2">
+                    <button type="button" data-7>7</button>
+                    <button type="button" data-8>8</button>
+                    <button type="button" data-9>9</button>
+                    <button type="button" class="operator" data-divide>/</button>
+                    <button type="button" data-4>4</button>
+                    <button type="button" data-5>5</button>
+                    <button type="button" data-6>6</button>
+                    <button type="button" class="operator" data-multiply>*</button>
+                    <button type="button" data-1>1</button>
+                    <button type="button" data-2>2</button>
+                    <button type="button" data-3>3</button>
+                    <button type="button" class="operator" data-subtract>-</button>
+                    <button type="button" data-0>0</button>
+                    <button type="button" data-point>.</button>
+                    <button type="button" class="equals" data-equals>=</button>
+                    <button type="button" class="operator" data-add>+</button>
+                </div> 
+            </div>    
         </div>
     </div>
     <script src="app.js"></script>
