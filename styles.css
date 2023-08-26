@@ -21,7 +21,7 @@
     border-radius: 10px;
 }
 
-.calculator{
+.calculator {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,6 @@
 
 .calculator-display {
     border: none;
-    width: 100%;
     padding: 1rem;
     margin-bottom: 1rem;
     background-color: #fff;
