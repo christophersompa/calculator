@@ -9,12 +9,18 @@ keys.addEventListener('click', e => {
         const keyContent = key.textContent;
         const displayedNum = display.textContent;
 
+        // When a user hits a number key
         if(!action){
             if(displayedNum === '0'){
                 display.textContent = keyContent;
             } else {
                 display.textContent = displayedNum + keyContent;
             }
+        }
+
+        //When a user hits the decimal key
+        if(action === 'decimal'){
+            display.textContent = displayedNum + '.';
         }
     }
 })
