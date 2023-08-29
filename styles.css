@@ -10,13 +10,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #7ee0f6;
 }
 
 .calculator { 
     width: 330px;
     height: 450px;
     padding: 50px 50px;
+    border-radius: 10px;
+    background: #d2d2d2cb;
 }
 
 .calculator-display {
